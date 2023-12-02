@@ -1,0 +1,45 @@
+.infoform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.infoinput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+
+}
+
+.infoform>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+.infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+}
+.infoButton:hover{
+    border: 1px solid orange;
+    color: orange;
+    background: transparent;
+}
+
+.autform{
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.autform>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

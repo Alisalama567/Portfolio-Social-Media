@@ -1,0 +1,37 @@
+.Auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 100vh;
+    position: relative;
+
+}
+
+.Auth>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-left{
+    gap: 2rem;
+}
+.a-left>img{
+    width: 4rem;
+    height: 4rem;
+}
+.webname>h1{
+    font-size: 3rem;
+    background-color: red;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color:transparent;
+}
+.webname>h6{
+    font-size: 0.85rem;
+}

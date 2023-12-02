@@ -1,0 +1,6 @@
+.posts{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 1rem;
+}

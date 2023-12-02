@@ -1,0 +1,41 @@
+.FollowresCard{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    border-radius: 0.7rem;
+    gap: 1rem;
+    font-size: 13px;
+    
+}
+.follwores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.follwores>div{
+    display: flex;
+    gap: 10px;
+}
+.followersimg{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.name>span:nth-child(1){
+    font-weight: bold;
+    font-size: 15px;
+}
+.name>span:nth-child(2){
+    margin-top: -9px;
+}

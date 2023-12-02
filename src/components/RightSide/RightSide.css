@@ -1,0 +1,30 @@
+.rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.navicon{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navicon>img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.r-button{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    margin-top: 3rem;
+}
+.r-button:hover{
+    background: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
+a>button{
+    margin-left: 3rem;
+}
